@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "picture": "https://images.pexels.com/photos/2544829/pexels-photo-2544829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "name": "John Smith",
+    "bio": "John Smith is a renowned chef with over 3 years of experience in the culinary industry. He specializes in Bangladeshi cuisine and is known for his creative twists on classic dishes. When he's not in the kitchen, he enjoys hiking and spending time with his family.",
+    "experience": 3,
+    "recipes": 11,
+    "likes": 10000,
+    "recipes_views": 532
+  },
+  {
+    "id": 2,
+    "picture": "https://images.pexels.com/photos/3217156/pexels-photo-3217156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "name": "Jane Doe",
+    "bio": "Jane Doe is a rising star in the culinary world with a passion for Asian fusion cuisine. She has worked in some of the top restaurants in the country and is known for her unique flavor combinations. In her free time, she enjoys practicing yoga and traveling to new places.",
+    "experience": 5,
+    "recipes": 12,
+    "likes": 5000,
+    "recipes_views": 720
+  },
+  {
+    "id": 3,
+    "picture": "https://images.pexels.com/photos/1397514/pexels-photo-1397514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "name": "David Lee",
+    "bio": "David Lee is a classically trained chef with experience in both fine dining and casual cuisine. He is a master of Bangali cooking techniques and is known for his attention to detail. When he's not in the kitchen, he enjoys playing guitar and spending time with his dog.",
+    "experience": 2,
+    "recipes": 8,
+    "likes": 8000,
+    "recipes_views": 310
+  },
+  {
+    "id": 4,
+    "picture": "https://images.pexels.com/photos/4252146/pexels-photo-4252146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "name": "Matt Joo",
+    "bio": "Matt Joo is a celebrated chef who has won numerous awards for her Bangali cuisine. She has a passion for using fresh, locally sourced ingredients in her dishes. In her free time, she enjoys gardening and hiking.",
+    "experience": 5,
+    "recipes": 10,
+    "likes": 6000,
+    "recipes_views": 120
+  },
+  {
+    "id": 5,
+    "picture": "https://images.pexels.com/photos/887827/pexels-photo-887827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "name": "Misba Khan",
+    "bio": "Misba Khan is a young and talented chef who specializes in vegan cuisine. He is passionate about creating delicious plant-based meals that are both healthy and environmentally friendly. In his free time, he enjoys practicing meditation and yoga.",
+    "experience": 2,
+    "recipes": 8,
+    "likes": 8000,
+    "recipes_views": 450
+  },
+  {
+    "id": 6,
+    "picture": "https://images.pexels.com/photos/4253303/pexels-photo-4253303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "name": "Malal Ahamed",
+    "bio": "Malal Ahamed is a pastry chef with a passion for creating beautiful and delicious desserts. She has worked in some of the top restaurants in the world and is known for her innovative and creative approach to baking. In her free time, she enjoys painting and traveling to new places.",
+    "experience": 3,
+    "recipes": 8,
+    "likes": 1000,
+    "recipes_views": 120
+  }
+]
