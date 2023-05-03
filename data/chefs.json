@@ -5,7 +5,78 @@
     "name": "John Smith",
     "bio": "John Smith is a renowned chef with over 3 years of experience in the culinary industry. He specializes in Bangladeshi cuisine and is known for his creative twists on classic dishes. When he's not in the kitchen, he enjoys hiking and spending time with his family.",
     "experience": 3,
-    "recipes": 11,
+    "recipes": [
+      {
+        "_id": 1,
+        "recipe_name": "Beef Biryani",
+        "ingredients": [
+          "2 cups of basmati rice",
+          "1 lb of beef meat",
+          "1 large onion",
+          "2 tablespoons of vegetable oil",
+          "4 cups of water",
+          "etc"
+        ],
+        "cooking_method": "Rinse the rice in cold water until the water runs clear. Soak the rice in cold water for 30 minutes. Heat the oil or ghee in a large pot over medium heat. Add the onion and sauté until golden brown. Add the meat or vegetables and sauté until browned on all sides...",
+        "rating": 4.5
+      },
+      {
+        "_id": 2,
+        "recipe_name": "Pizza",
+        "ingredients": [
+          "2 1/2 cups of all-purpose flour",
+          "2 1/4 teaspoons of active dry yeast",
+          "1 teaspoon of salt",
+          "1 teaspoon of sugar",
+          "1 tablespoon of olive oil",
+          "1 cup of warm water"
+        ],
+        "cooking_method": "In a large mixing bowl, combine the flour, yeast, salt, and sugar. Add the olive oil and warm water and stir until a dough forms. Turn the dough out onto a floured surface and knead for 5-10 minutes, until the dough is smooth and elastic. lace the dough in a lightly oiled bowl and cover with a clean towel...",
+        "rating": 5
+      },
+      {
+        "_id": 3,
+        "recipe_name": "Burger",
+        "ingredients": [
+          "1 pound of ground beef",
+          "1 teaspoon of salt",
+          "1/2 teaspoon of black pepper",
+          "1/2 teaspoon of onion powder",
+          "4 hamburger buns",
+          "etc"
+        ],
+        "cooking_method": "Preheat your grill or skillet to medium-high heat. In a mixing bowl, combine the ground beef, salt, pepper, garlic powder, and onion powder. Mix well, but don't overwork the meat. Divide the meat mixture into four equal portions. Using your hands, shape each portion into a patty that is about 1/2 inch thick...",
+        "rating": 4.5
+      },
+      {
+        "_id": 4,
+        "recipe_name": "Pasta",
+        "ingredients": [
+          "1 pound of spaghetti",
+          "2 cloves of garlic, minced",
+          "1/4 cup of olive oil",
+          "1 teaspoon of salt",
+          "Fresh basil leaves",
+          "etc"
+        ],
+        "cooking_method": "Bring a large pot of salted water to a boil. Add the spaghetti and cook until al dente, about 8-10 minutes. While the spaghetti is cooking, make the tomato sauce. In a large saucepan, heat the olive oil over medium heat. Add the minced garlic and cook for 1-2 minutes, until fragrant...",
+        "rating": 4
+      },
+      {
+        "_id": 5,
+        "recipe_name": "Beef Bhuna",
+        "ingredients": [
+          "1 pound of beef",
+          "2 onions, finely chopped",
+          "2 tomatoes, finely chopped",
+          "3-4 tablespoons of vegetable oil",
+          "Salt to taste",
+          "etc"
+        ],
+        "cooking_method": "Heat the oil in a large pan over medium heat. Add the bay leaves and let them sizzle for a few seconds. Add the chopped onions to the pan and sauté until they turn soft and golden brown. Add the minced garlic and ginger paste to the pan and sauté for another 1-2 minutes...",
+        "rating": 4.5
+      }
+    ],
     "likes": 10000,
     "recipes_views": 532
   },
@@ -15,7 +86,64 @@
     "name": "Jane Doe",
     "bio": "Jane Doe is a rising star in the culinary world with a passion for Asian fusion cuisine. She has worked in some of the top restaurants in the country and is known for her unique flavor combinations. In her free time, she enjoys practicing yoga and traveling to new places.",
     "experience": 5,
-    "recipes": 12,
+    "recipes": [
+      {
+        "_id": 1,
+        "recipe_name": "Beef Biryani",
+        "ingredients": [
+          "2 cups of basmati rice",
+          "1 lb of beef meat",
+          "1 large onion",
+          "2 tablespoons of vegetable oil",
+          "4 cups of water",
+          "etc"
+        ],
+        "cooking_method": "Rinse the rice in cold water until the water runs clear. Soak the rice in cold water for 30 minutes. Heat the oil or ghee in a large pot over medium heat. Add the onion and sauté until golden brown. Add the meat or vegetables and sauté until browned on all sides...",
+        "rating": 4.5
+      },
+      {
+        "_id": 2,
+        "recipe_name": "Pizza",
+        "ingredients": [
+          "2 1/2 cups of all-purpose flour",
+          "2 1/4 teaspoons of active dry yeast",
+          "1 teaspoon of salt",
+          "1 teaspoon of sugar",
+          "1 tablespoon of olive oil",
+          "1 cup of warm water"
+        ],
+        "cooking_method": "In a large mixing bowl, combine the flour, yeast, salt, and sugar. Add the olive oil and warm water and stir until a dough forms. Turn the dough out onto a floured surface and knead for 5-10 minutes, until the dough is smooth and elastic. lace the dough in a lightly oiled bowl and cover with a clean towel...",
+        "rating": 5
+      },
+      {
+        "_id": 3,
+        "recipe_name": "Burger",
+        "ingredients": [
+          "1 pound of ground beef",
+          "1 teaspoon of salt",
+          "1/2 teaspoon of black pepper",
+          "1/2 teaspoon of onion powder",
+          "4 hamburger buns",
+          "etc"
+        ],
+        "cooking_method": "Preheat your grill or skillet to medium-high heat. In a mixing bowl, combine the ground beef, salt, pepper, garlic powder, and onion powder. Mix well, but don't overwork the meat. Divide the meat mixture into four equal portions. Using your hands, shape each portion into a patty that is about 1/2 inch thick...",
+        "rating": 4.5
+      },
+      {
+        "_id": 4,
+        "recipe_name": "Pasta",
+        "ingredients": [
+          "1 pound of spaghetti",
+          "2 cloves of garlic, minced",
+          "1/4 cup of olive oil",
+          "1 teaspoon of salt",
+          "Fresh basil leaves",
+          "etc"
+        ],
+        "cooking_method": "Bring a large pot of salted water to a boil. Add the spaghetti and cook until al dente, about 8-10 minutes. While the spaghetti is cooking, make the tomato sauce. In a large saucepan, heat the olive oil over medium heat. Add the minced garlic and cook for 1-2 minutes, until fragrant...",
+        "rating": 4
+      }
+    ],
     "likes": 5000,
     "recipes_views": 720
   },
@@ -25,7 +153,106 @@
     "name": "David Lee",
     "bio": "David Lee is a classically trained chef with experience in both fine dining and casual cuisine. He is a master of Bangali cooking techniques and is known for his attention to detail. When he's not in the kitchen, he enjoys playing guitar and spending time with his dog.",
     "experience": 2,
-    "recipes": 8,
+    "recipes": [
+      {
+        "_id": 1,
+        "recipe_name": "Beef Biryani",
+        "ingredients": [
+          "2 cups of basmati rice",
+          "1 lb of beef meat",
+          "1 large onion",
+          "2 tablespoons of vegetable oil",
+          "4 cups of water",
+          "etc"
+        ],
+        "cooking_method": "Rinse the rice in cold water until the water runs clear. Soak the rice in cold water for 30 minutes. Heat the oil or ghee in a large pot over medium heat. Add the onion and sauté until golden brown. Add the meat or vegetables and sauté until browned on all sides...",
+        "rating": 4.5
+      },
+      {
+        "_id": 2,
+        "recipe_name": "Pizza",
+        "ingredients": [
+          "2 1/2 cups of all-purpose flour",
+          "2 1/4 teaspoons of active dry yeast",
+          "1 teaspoon of salt",
+          "1 teaspoon of sugar",
+          "1 tablespoon of olive oil",
+          "1 cup of warm water"
+        ],
+        "cooking_method": "In a large mixing bowl, combine the flour, yeast, salt, and sugar. Add the olive oil and warm water and stir until a dough forms. Turn the dough out onto a floured surface and knead for 5-10 minutes, until the dough is smooth and elastic. lace the dough in a lightly oiled bowl and cover with a clean towel...",
+        "rating": 5
+      },
+      {
+        "_id": 3,
+        "recipe_name": "Burger",
+        "ingredients": [
+          "1 pound of ground beef",
+          "1 teaspoon of salt",
+          "1/2 teaspoon of black pepper",
+          "1/2 teaspoon of onion powder",
+          "4 hamburger buns",
+          "etc"
+        ],
+        "cooking_method": "Preheat your grill or skillet to medium-high heat. In a mixing bowl, combine the ground beef, salt, pepper, garlic powder, and onion powder. Mix well, but don't overwork the meat. Divide the meat mixture into four equal portions. Using your hands, shape each portion into a patty that is about 1/2 inch thick...",
+        "rating": 4.5
+      },
+      {
+        "_id": 4,
+        "recipe_name": "Pasta",
+        "ingredients": [
+          "1 pound of spaghetti",
+          "2 cloves of garlic, minced",
+          "1/4 cup of olive oil",
+          "1 teaspoon of salt",
+          "Fresh basil leaves",
+          "etc"
+        ],
+        "cooking_method": "Bring a large pot of salted water to a boil. Add the spaghetti and cook until al dente, about 8-10 minutes. While the spaghetti is cooking, make the tomato sauce. In a large saucepan, heat the olive oil over medium heat. Add the minced garlic and cook for 1-2 minutes, until fragrant...",
+        "rating": 4
+      },
+      {
+        "_id": 5,
+        "recipe_name": "Beef Bhuna",
+        "ingredients": [
+          "1 pound of beef",
+          "2 onions, finely chopped",
+          "2 tomatoes, finely chopped",
+          "3-4 tablespoons of vegetable oil",
+          "Salt to taste",
+          "etc"
+        ],
+        "cooking_method": "Heat the oil in a large pan over medium heat. Add the bay leaves and let them sizzle for a few seconds. Add the chopped onions to the pan and sauté until they turn soft and golden brown. Add the minced garlic and ginger paste to the pan and sauté for another 1-2 minutes...",
+        "rating": 4.5
+      },
+      {
+        "_id": 6,
+        "recipe_name": "Pasta",
+        "ingredients": [
+          "1 pound of spaghetti",
+          "2 cloves of garlic, minced",
+          "1/4 cup of olive oil",
+          "1 teaspoon of salt",
+          "Fresh basil leaves",
+          "etc"
+        ],
+        "cooking_method": "Bring a large pot of salted water to a boil. Add the spaghetti and cook until al dente, about 8-10 minutes. While the spaghetti is cooking, make the tomato sauce. In a large saucepan, heat the olive oil over medium heat. Add the minced garlic and cook for 1-2 minutes, until fragrant...",
+        "rating": 4
+      },
+      {
+        "_id": 7,
+        "recipe_name": "Burger",
+        "ingredients": [
+          "1 pound of ground beef",
+          "1 teaspoon of salt",
+          "1/2 teaspoon of black pepper",
+          "1/2 teaspoon of onion powder",
+          "4 hamburger buns",
+          "etc"
+        ],
+        "cooking_method": "Preheat your grill or skillet to medium-high heat. In a mixing bowl, combine the ground beef, salt, pepper, garlic powder, and onion powder. Mix well, but don't overwork the meat. Divide the meat mixture into four equal portions. Using your hands, shape each portion into a patty that is about 1/2 inch thick...",
+        "rating": 4.5
+      }
+    ],
     "likes": 8000,
     "recipes_views": 310
   },
@@ -35,7 +262,64 @@
     "name": "Matt Joo",
     "bio": "Matt Joo is a celebrated chef who has won numerous awards for her Bangali cuisine. She has a passion for using fresh, locally sourced ingredients in her dishes. In her free time, she enjoys gardening and hiking.",
     "experience": 5,
-    "recipes": 10,
+    "recipes": [
+      {
+        "_id": 1,
+        "recipe_name": "Beef Bhuna",
+        "ingredients": [
+          "1 pound of beef",
+          "2 onions, finely chopped",
+          "2 tomatoes, finely chopped",
+          "3-4 tablespoons of vegetable oil",
+          "Salt to taste",
+          "etc"
+        ],
+        "cooking_method": "Heat the oil in a large pan over medium heat. Add the bay leaves and let them sizzle for a few seconds. Add the chopped onions to the pan and sauté until they turn soft and golden brown. Add the minced garlic and ginger paste to the pan and sauté for another 1-2 minutes...",
+        "rating": 4.5
+      },
+      {
+        "_id": 2,
+        "recipe_name": "Burger",
+        "ingredients": [
+          "1 pound of ground beef",
+          "1 teaspoon of salt",
+          "1/2 teaspoon of black pepper",
+          "1/2 teaspoon of onion powder",
+          "4 hamburger buns",
+          "etc"
+        ],
+        "cooking_method": "Preheat your grill or skillet to medium-high heat. In a mixing bowl, combine the ground beef, salt, pepper, garlic powder, and onion powder. Mix well, but don't overwork the meat. Divide the meat mixture into four equal portions. Using your hands, shape each portion into a patty that is about 1/2 inch thick...",
+        "rating": 4.5
+      },
+      {
+        "_id": 3,
+        "recipe_name": "Pasta",
+        "ingredients": [
+          "1 pound of spaghetti",
+          "2 cloves of garlic, minced",
+          "1/4 cup of olive oil",
+          "1 teaspoon of salt",
+          "Fresh basil leaves",
+          "etc"
+        ],
+        "cooking_method": "Bring a large pot of salted water to a boil. Add the spaghetti and cook until al dente, about 8-10 minutes. While the spaghetti is cooking, make the tomato sauce. In a large saucepan, heat the olive oil over medium heat. Add the minced garlic and cook for 1-2 minutes, until fragrant...",
+        "rating": 4
+      },
+      {
+        "_id": 4,
+        "recipe_name": "Beef Biryani",
+        "ingredients": [
+          "2 cups of basmati rice",
+          "1 lb of beef meat",
+          "1 large onion",
+          "2 tablespoons of vegetable oil",
+          "4 cups of water",
+          "etc"
+        ],
+        "cooking_method": "Rinse the rice in cold water until the water runs clear. Soak the rice in cold water for 30 minutes. Heat the oil or ghee in a large pot over medium heat. Add the onion and sauté until golden brown. Add the meat or vegetables and sauté until browned on all sides...",
+        "rating": 4.5
+      }
+    ],
     "likes": 6000,
     "recipes_views": 120
   },
@@ -45,7 +329,123 @@
     "name": "Misba Khan",
     "bio": "Misba Khan is a young and talented chef who specializes in vegan cuisine. He is passionate about creating delicious plant-based meals that are both healthy and environmentally friendly. In his free time, he enjoys practicing meditation and yoga.",
     "experience": 2,
-    "recipes": 8,
+    "recipes": [
+      {
+        "_id": 1,
+        "recipe_name": "Beef Bhuna",
+        "ingredients": [
+          "1 pound of beef",
+          "2 onions, finely chopped",
+          "2 tomatoes, finely chopped",
+          "3-4 tablespoons of vegetable oil",
+          "Salt to taste",
+          "etc"
+        ],
+        "cooking_method": "Heat the oil in a large pan over medium heat. Add the bay leaves and let them sizzle for a few seconds. Add the chopped onions to the pan and sauté until they turn soft and golden brown. Add the minced garlic and ginger paste to the pan and sauté for another 1-2 minutes...",
+        "rating": 4.5
+      },
+      {
+        "_id": 2,
+        "recipe_name": "Burger",
+        "ingredients": [
+          "1 pound of ground beef",
+          "1 teaspoon of salt",
+          "1/2 teaspoon of black pepper",
+          "1/2 teaspoon of onion powder",
+          "4 hamburger buns",
+          "etc"
+        ],
+        "cooking_method": "Preheat your grill or skillet to medium-high heat. In a mixing bowl, combine the ground beef, salt, pepper, garlic powder, and onion powder. Mix well, but don't overwork the meat. Divide the meat mixture into four equal portions. Using your hands, shape each portion into a patty that is about 1/2 inch thick...",
+        "rating": 4.5
+      },
+      {
+        "_id": 3,
+        "recipe_name": "Pasta",
+        "ingredients": [
+          "1 pound of spaghetti",
+          "2 cloves of garlic, minced",
+          "1/4 cup of olive oil",
+          "1 teaspoon of salt",
+          "Fresh basil leaves",
+          "etc"
+        ],
+        "cooking_method": "Bring a large pot of salted water to a boil. Add the spaghetti and cook until al dente, about 8-10 minutes. While the spaghetti is cooking, make the tomato sauce. In a large saucepan, heat the olive oil over medium heat. Add the minced garlic and cook for 1-2 minutes, until fragrant...",
+        "rating": 4
+      },
+      {
+        "_id": 4,
+        "recipe_name": "Beef Biryani",
+        "ingredients": [
+          "2 cups of basmati rice",
+          "1 lb of beef meat",
+          "1 large onion",
+          "2 tablespoons of vegetable oil",
+          "4 cups of water",
+          "etc"
+        ],
+        "cooking_method": "Rinse the rice in cold water until the water runs clear. Soak the rice in cold water for 30 minutes. Heat the oil or ghee in a large pot over medium heat. Add the onion and sauté until golden brown. Add the meat or vegetables and sauté until browned on all sides...",
+        "rating": 4.5
+      },
+      {
+        "_id": 5,
+        "recipe_name": "Pizza",
+        "ingredients": [
+          "2 1/2 cups of all-purpose flour",
+          "2 1/4 teaspoons of active dry yeast",
+          "1 teaspoon of salt",
+          "1 teaspoon of sugar",
+          "1 tablespoon of olive oil",
+          "1 cup of warm water"
+        ],
+        "cooking_method": "In a large mixing bowl, combine the flour, yeast, salt, and sugar. Add the olive oil and warm water and stir until a dough forms. Turn the dough out onto a floured surface and knead for 5-10 minutes, until the dough is smooth and elastic. lace the dough in a lightly oiled bowl and cover with a clean towel...",
+        "rating": 5
+      },
+
+      {
+        "_id": 6,
+        "recipe_name": "Kacchi Biryani",
+        "ingredients": [
+          "2 1/2 cups of all-purpose flour",
+          "2 1/4 teaspoons of active dry yeast",
+          "1 teaspoon of salt",
+          "1 teaspoon of sugar",
+          "1 tablespoon of olive oil",
+          "1 cup of warm water"
+        ],
+        "cooking_method": "In a large mixing bowl, combine the flour, yeast, salt, and sugar. Add the olive oil and warm water and stir until a dough forms. Turn the dough out onto a floured surface and knead for 5-10 minutes, until the dough is smooth and elastic. lace the dough in a lightly oiled bowl and cover with a clean towel...",
+        "rating": 5
+      },
+
+      {
+        "_id": 7,
+        "recipe_name": "Choco Food",
+        "ingredients": [
+          "2 1/2 cups of all-purpose flour",
+          "2 1/4 teaspoons of active dry yeast",
+          "1 teaspoon of salt",
+          "1 teaspoon of sugar",
+          "1 tablespoon of olive oil",
+          "1 cup of warm water"
+        ],
+        "cooking_method": "In a large mixing bowl, combine the flour, yeast, salt, and sugar. Add the olive oil and warm water and stir until a dough forms. Turn the dough out onto a floured surface and knead for 5-10 minutes, until the dough is smooth and elastic. lace the dough in a lightly oiled bowl and cover with a clean towel...",
+        "rating": 5
+      },
+
+      {
+        "_id": 8,
+        "recipe_name": "Pizza",
+        "ingredients": [
+          "2 1/2 cups of all-purpose flour",
+          "2 1/4 teaspoons of active dry yeast",
+          "1 teaspoon of salt",
+          "1 teaspoon of sugar",
+          "1 tablespoon of olive oil",
+          "1 cup of warm water"
+        ],
+        "cooking_method": "In a large mixing bowl, combine the flour, yeast, salt, and sugar. Add the olive oil and warm water and stir until a dough forms. Turn the dough out onto a floured surface and knead for 5-10 minutes, until the dough is smooth and elastic. lace the dough in a lightly oiled bowl and cover with a clean towel...",
+        "rating": 5
+      }
+    ],
     "likes": 8000,
     "recipes_views": 450
   },
@@ -55,7 +455,106 @@
     "name": "Malal Ahamed",
     "bio": "Malal Ahamed is a pastry chef with a passion for creating beautiful and delicious desserts. She has worked in some of the top restaurants in the world and is known for her innovative and creative approach to baking. In her free time, she enjoys painting and traveling to new places.",
     "experience": 3,
-    "recipes": 8,
+    "recipes": [
+      {
+        "_id": 1,
+        "recipe_name": "Beef Biryani",
+        "ingredients": [
+          "2 cups of basmati rice",
+          "1 lb of beef meat",
+          "1 large onion",
+          "2 tablespoons of vegetable oil",
+          "4 cups of water",
+          "etc"
+        ],
+        "cooking_method": "Rinse the rice in cold water until the water runs clear. Soak the rice in cold water for 30 minutes. Heat the oil or ghee in a large pot over medium heat. Add the onion and sauté until golden brown. Add the meat or vegetables and sauté until browned on all sides...",
+        "rating": 4.5
+      },
+      {
+        "_id": 2,
+        "recipe_name": "Pizza",
+        "ingredients": [
+          "2 1/2 cups of all-purpose flour",
+          "2 1/4 teaspoons of active dry yeast",
+          "1 teaspoon of salt",
+          "1 teaspoon of sugar",
+          "1 tablespoon of olive oil",
+          "1 cup of warm water"
+        ],
+        "cooking_method": "In a large mixing bowl, combine the flour, yeast, salt, and sugar. Add the olive oil and warm water and stir until a dough forms. Turn the dough out onto a floured surface and knead for 5-10 minutes, until the dough is smooth and elastic. lace the dough in a lightly oiled bowl and cover with a clean towel...",
+        "rating": 5
+      },
+      {
+        "_id": 3,
+        "recipe_name": "Burger",
+        "ingredients": [
+          "1 pound of ground beef",
+          "1 teaspoon of salt",
+          "1/2 teaspoon of black pepper",
+          "1/2 teaspoon of onion powder",
+          "4 hamburger buns",
+          "etc"
+        ],
+        "cooking_method": "Preheat your grill or skillet to medium-high heat. In a mixing bowl, combine the ground beef, salt, pepper, garlic powder, and onion powder. Mix well, but don't overwork the meat. Divide the meat mixture into four equal portions. Using your hands, shape each portion into a patty that is about 1/2 inch thick...",
+        "rating": 4.5
+      },
+      {
+        "_id": 4,
+        "recipe_name": "Pasta",
+        "ingredients": [
+          "1 pound of spaghetti",
+          "2 cloves of garlic, minced",
+          "1/4 cup of olive oil",
+          "1 teaspoon of salt",
+          "Fresh basil leaves",
+          "etc"
+        ],
+        "cooking_method": "Bring a large pot of salted water to a boil. Add the spaghetti and cook until al dente, about 8-10 minutes. While the spaghetti is cooking, make the tomato sauce. In a large saucepan, heat the olive oil over medium heat. Add the minced garlic and cook for 1-2 minutes, until fragrant...",
+        "rating": 4
+      },
+      {
+        "_id": 5,
+        "recipe_name": "Beef Bhuna",
+        "ingredients": [
+          "1 pound of beef",
+          "2 onions, finely chopped",
+          "2 tomatoes, finely chopped",
+          "3-4 tablespoons of vegetable oil",
+          "Salt to taste",
+          "etc"
+        ],
+        "cooking_method": "Heat the oil in a large pan over medium heat. Add the bay leaves and let them sizzle for a few seconds. Add the chopped onions to the pan and sauté until they turn soft and golden brown. Add the minced garlic and ginger paste to the pan and sauté for another 1-2 minutes...",
+        "rating": 4.5
+      },
+      {
+        "_id": 6,
+        "recipe_name": "Pasta",
+        "ingredients": [
+          "1 pound of spaghetti",
+          "2 cloves of garlic, minced",
+          "1/4 cup of olive oil",
+          "1 teaspoon of salt",
+          "Fresh basil leaves",
+          "etc"
+        ],
+        "cooking_method": "Bring a large pot of salted water to a boil. Add the spaghetti and cook until al dente, about 8-10 minutes. While the spaghetti is cooking, make the tomato sauce. In a large saucepan, heat the olive oil over medium heat. Add the minced garlic and cook for 1-2 minutes, until fragrant...",
+        "rating": 4
+      },
+      {
+        "_id": 7,
+        "recipe_name": "Burger",
+        "ingredients": [
+          "1 pound of ground beef",
+          "1 teaspoon of salt",
+          "1/2 teaspoon of black pepper",
+          "1/2 teaspoon of onion powder",
+          "4 hamburger buns",
+          "etc"
+        ],
+        "cooking_method": "Preheat your grill or skillet to medium-high heat. In a mixing bowl, combine the ground beef, salt, pepper, garlic powder, and onion powder. Mix well, but don't overwork the meat. Divide the meat mixture into four equal portions. Using your hands, shape each portion into a patty that is about 1/2 inch thick...",
+        "rating": 4.5
+      }
+    ],
     "likes": 1000,
     "recipes_views": 120
   }
